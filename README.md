@@ -6,3 +6,6 @@ will be using two or more Convolutional Neural Network (CNN)
 as its subnetwork component. \
 The network will be trained using the Omniglot dataset to predict 
 whether the given inputs belong to the same equivalence class.
+
+### For detailed information,
+please read **IFN680_Assignment2.pdf** file.
