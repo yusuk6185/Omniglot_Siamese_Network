@@ -1,9 +1,8 @@
 # Introduction
-Siamese networks are neural networks that contain two or more identical subnetwork
-components (Bromley et al., 1994). In this report, the Siamese network will be using two or
-more Convolutional Neural Network (CNN) as its subnetwork component. The network will
-be trained using the Omniglot dataset to predict whether the given inputs belong to the same
-equivalence class.
+**Siamese networks** are neural networks that contain two or more identical subnetwork
+components (Bromley et al., 1994). 
+In this report, the Siamese network will be using two or more Convolutional Neural Network (CNN) as its subnetwork component.
+The network will be trained using the **Omniglot dataset** to predict whether the given inputs belong to the same equivalence class.
 
 # Methodology
 ## Experiment Structure
