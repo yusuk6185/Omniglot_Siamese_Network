@@ -7,8 +7,8 @@ equivalence class.
 
 # Methodology
 ## Experiment Structure
-This experiment has been conducted based on the Siamese network in which several CNNs
-are combined. Figure 1. shows an overview of the experiment structure used to build and
+This experiment has been conducted based on the **Siamese network**  in which several CNNs
+are combined. Figure 1 shows an overview of the experiment structure used to build and
 train a Siamese network.
 
 ![image](https://user-images.githubusercontent.com/35501963/144553433-6846a2c6-551a-4605-bd8d-2fd1d4ad39ee.png)
@@ -83,11 +83,11 @@ and the negative samples further away. The m value is set at 0.4 for this functi
 ## Test Design
 In order to test the performance of the Siamese network model generated, three
 experiments for two different losses, contrastive loss and triplet loss, are conducted. The
-three experiments used different pairs as input of the model:
-● First experiment used the pairs from the set of glyphs from the ‘train’ split.
-● Second experiment used the pairs from the set of glyphs from both ‘train’ and ‘test’
-splits.
-● Third experiment used the pairs from the set of glyphs from the ‘test’ split.
+three experiments used different pairs as input of the model:<br/>
+● First experiment used the pairs from the set of glyphs from the ‘train’ split.<br/>
+● Second experiment used the pairs from the set of glyphs from both ‘train’ and ‘test’ splits.<br/>
+● Third experiment used the pairs from the set of glyphs from the ‘test’ split.<br/>
+
 On the other hand, model training is performed using only ‘train’ split.
 Each experiment followed the performance evaluation method to observe the calculated
 losses and accuracies of training and validation. Also, a callback function is applied to avoid
@@ -135,17 +135,20 @@ average of validation loss is rounded to 0.112 with the minimum value of 0.0834 
 value of 0.329. On the other hand, the average of training loss is rounded to 0.0594 with the
 minimum value of 0.0221 and maximum value of 0.2037. The trend of chart shows
 decreasing loss for both losses throughout the epochs.
+
 For the second experiment indicated as ‘Triplet Test 2’, it took 5.3 seconds for each epoch.
 The experiment ended after epoch 39 by the callback function. The average of validation
 loss is rounded to 0.1513 with the minimum value of 0.1067 and maximum value of 0.396.
 Meanwhile, the average of training loss is rounded to 0.0706 with the minimum value of
 0.0316 and maximum value of 0.2086. The trend of chart shows decreasing loss for both
 losses throughout the epochs.
+
 Lastly, for the third experiment indicated as ‘Triplet Test 3’, it took 4.3 seconds for each
 epoch. The experiment ended after epoch 35 by the callback function. The average of
 validation loss is rounded to 0.188 with the minimum value of 0.139 and maximum value of
 0.392. Meanwhile, the average of training loss is rounded to 0.0731 with the minimum value
 of 0.0313 and maximum value of 0.2015.
+
 ### Accuracy
 In addition to the execution time and loss, the training accuracy and validation accuracy for
 each epoch using triplet loss are displayed in the following plot chart.
